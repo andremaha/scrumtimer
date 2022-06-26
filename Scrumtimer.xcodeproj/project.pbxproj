@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3C5FA586286767E300CE4BD8 /* ScrumtimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA585286767E300CE4BD8 /* ScrumtimerApp.swift */; };
-		3C5FA588286767E300CE4BD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA587286767E300CE4BD8 /* ContentView.swift */; };
+		3C5FA588286767E300CE4BD8 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA587286767E300CE4BD8 /* MeetingView.swift */; };
 		3C5FA58A286767E400CE4BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5FA589286767E400CE4BD8 /* Assets.xcassets */; };
 		3C5FA58D286767E400CE4BD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5FA58C286767E400CE4BD8 /* Preview Assets.xcassets */; };
 		3C5FA597286767E400CE4BD8 /* ScrumtimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA596286767E400CE4BD8 /* ScrumtimerTests.swift */; };
 		3C5FA5A1286767E400CE4BD8 /* ScrumtimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA5A0286767E400CE4BD8 /* ScrumtimerUITests.swift */; };
 		3C5FA5A3286767E400CE4BD8 /* ScrumtimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA5A2286767E400CE4BD8 /* ScrumtimerUITestsLaunchTests.swift */; };
+		3C5FA5B128676E3600CE4BD8 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA5B028676E3600CE4BD8 /* Theme.swift */; };
+		3C5FA5B32867704E00CE4BD8 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA5B22867704E00CE4BD8 /* DailyScrum.swift */; };
+		3C5FA5B52867718000CE4BD8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA5B42867718000CE4BD8 /* CardView.swift */; };
+		3C5FA5B728683D1D00CE4BD8 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA5B628683D1D00CE4BD8 /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		3C5FA582286767E300CE4BD8 /* Scrumtimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumtimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5FA585286767E300CE4BD8 /* ScrumtimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumtimerApp.swift; sourceTree = "<group>"; };
-		3C5FA587286767E300CE4BD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C5FA587286767E300CE4BD8 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		3C5FA589286767E400CE4BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C5FA58C286767E400CE4BD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C5FA592286767E400CE4BD8 /* ScrumtimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumtimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		3C5FA59C286767E400CE4BD8 /* ScrumtimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumtimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5FA5A0286767E400CE4BD8 /* ScrumtimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumtimerUITests.swift; sourceTree = "<group>"; };
 		3C5FA5A2286767E400CE4BD8 /* ScrumtimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumtimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C5FA5B028676E3600CE4BD8 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		3C5FA5B22867704E00CE4BD8 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		3C5FA5B42867718000CE4BD8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3C5FA5B628683D1D00CE4BD8 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +102,13 @@
 		3C5FA584286767E300CE4BD8 /* Scrumtimer */ = {
 			isa = PBXGroup;
 			children = (
+				3C5FA5AF28676E1E00CE4BD8 /* Models */,
 				3C5FA585286767E300CE4BD8 /* ScrumtimerApp.swift */,
-				3C5FA587286767E300CE4BD8 /* ContentView.swift */,
+				3C5FA587286767E300CE4BD8 /* MeetingView.swift */,
 				3C5FA589286767E400CE4BD8 /* Assets.xcassets */,
 				3C5FA58B286767E400CE4BD8 /* Preview Content */,
+				3C5FA5B42867718000CE4BD8 /* CardView.swift */,
+				3C5FA5B628683D1D00CE4BD8 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Scrumtimer;
 			sourceTree = "<group>";
@@ -125,6 +136,15 @@
 				3C5FA5A2286767E400CE4BD8 /* ScrumtimerUITestsLaunchTests.swift */,
 			);
 			path = ScrumtimerUITests;
+			sourceTree = "<group>";
+		};
+		3C5FA5AF28676E1E00CE4BD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C5FA5B028676E3600CE4BD8 /* Theme.swift */,
+				3C5FA5B22867704E00CE4BD8 /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C5FA588286767E300CE4BD8 /* ContentView.swift in Sources */,
+				3C5FA5B32867704E00CE4BD8 /* DailyScrum.swift in Sources */,
+				3C5FA5B728683D1D00CE4BD8 /* TrailingIconLabelStyle.swift in Sources */,
+				3C5FA5B128676E3600CE4BD8 /* Theme.swift in Sources */,
+				3C5FA588286767E300CE4BD8 /* MeetingView.swift in Sources */,
 				3C5FA586286767E300CE4BD8 /* ScrumtimerApp.swift in Sources */,
+				3C5FA5B52867718000CE4BD8 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

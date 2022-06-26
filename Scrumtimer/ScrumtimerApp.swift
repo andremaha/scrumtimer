@@ -11,7 +11,7 @@ import SwiftUI
 struct ScrumtimerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MeetingView()
         }
     }
 }
